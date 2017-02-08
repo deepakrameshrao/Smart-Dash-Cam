@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_layout"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/video_control"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/video_icon"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/settings"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/settings5"
+        android:clickable="true"
+        android:layout_alignBaseline="@id/video_control"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+
+        />
+
+    <ImageButton
+        android:id="@+id/list"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/listview"
+        android:clickable="true"
+        android:layout_alignBaseline="@id/video_control"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
